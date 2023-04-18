@@ -4,11 +4,12 @@
 }
 
 body {
+  width: 100%;
   background: url("smilebackground.8f0d1731.jpg") 0 0 / cover no-repeat;
 }
 
 h1, div {
-  padding: 3.25rem;
+  padding: 2rem;
 }
 
 h1 {
@@ -52,6 +53,21 @@ button:active {
   border-radius: 10px;
   padding: 1rem 2rem;
   display: none;
+}
+
+@media only screen and (max-width: 660px) {
+  h1 {
+    font-size: 1.1rem;
+  }
+
+  button {
+    padding: .5rem;
+  }
+
+  .endJoke, .startJoke {
+    padding: .25rem;
+    font-size: 1rem;
+  }
 }
 
 /*# sourceMappingURL=index.f8c78c2a.css.map */

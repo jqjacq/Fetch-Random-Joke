@@ -5,9 +5,10 @@
 body {
     background: no-repeat url('./smilebackground.jpg');
     background-size: cover;
+    width: 100%;
 }
 h1, div {
-    padding: 3.25rem;
+    padding: 2rem;
 }
 h1 {
     background-color: rgb(224, 255, 255, 0.75);
@@ -44,3 +45,15 @@ button:active {
     border-radius: 10px;
 }
 /* https://unsplash.com/photos/uGP_6CAD-14 */
+@media only screen and (max-width: 660px) {
+    h1 {
+        font-size: 1.1rem;
+    }
+    button {
+        padding: 0.5rem;
+    }
+    .endJoke, .startJoke {
+        padding: 0.25rem;
+        font-size: 1rem;
+    }
+}
