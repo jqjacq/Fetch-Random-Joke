@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: url("smilebackground.40548cf4.jpg") 0 0 / cover no-repeat;
+}
+
+h1, div {
+  padding: 3.25rem;
+}
+
+button {
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  font-size: 1.25rem;
+}
+
+button:hover {
+  font-weight: bold;
+}
+
+button:active {
+  opacity: .8;
+}
+
+.centertext {
+  text-align: center;
+}
+
+.joke-container {
+  justify-content: center;
+  display: flex;
+}
+
+.displayJoke {
+  justify-content: center;
+  display: block;
+}
+
+.endJokeButton {
+  font-size: 1rem;
+}
+
+.endJoke, .startJoke {
+  background-color: #ffffffbf;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  display: none;
+}
+
+/*# sourceMappingURL=index.668433e2.css.map */

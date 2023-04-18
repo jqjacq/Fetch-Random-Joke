@@ -9,6 +9,9 @@ body {
 h1, div {
     padding: 3.25rem;
 }
+h1 {
+    background-color: rgb(224, 255, 255, 0.75);
+}
 button {
     padding: 1rem 1.5rem;
     border-radius: 10px; 
