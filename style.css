@@ -2,7 +2,24 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+body {
+    background: no-repeat url('./smilebackground.jpg');
+    background-size: cover;
+}
+h1, div {
+    padding: 3rem;
+}
+button {
+    padding: 1rem 1.5rem;
+    border-radius: 10px; 
+    font-size: 1.25rem;  
+}
+button:hover {
+    font-weight: bold;
+}
+button:active {
+    opacity: 0.8;
+}
 .centertext {
     text-align: center;
 }
@@ -14,3 +31,7 @@
     display: block;
     justify-content: center;
 }
+.endJokeButton {
+    font-size: 1rem;
+}
+/* https://unsplash.com/photos/uGP_6CAD-14 */
