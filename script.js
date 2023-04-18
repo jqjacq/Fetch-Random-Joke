@@ -39,8 +39,8 @@ randomJokeButton.addEventListener('click', async function() {
     endJokeButton.style.display = 'block';
     // displayJoke.innerHTML = joke.replace('\n', '<br>');
     endJokeButton.addEventListener('click', async function() {
+        endJoke.style.display = 'inline';
         if (currentJoke) {
-            endJoke.style.display = 'inline';
             endJoke.textContent = joke.punchline;
         }
     });
