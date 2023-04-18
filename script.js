@@ -35,6 +35,7 @@ randomJokeButton.addEventListener('click', async function() {
     startJoke.textContent = joke.setup;
     currentJoke = joke.setup;
     endJoke.textContent = '';
+    endJoke.style.display = 'none';
     startJoke.style.display = 'inline';
     endJokeButton.style.display = 'block';
     // displayJoke.innerHTML = joke.replace('\n', '<br>');
