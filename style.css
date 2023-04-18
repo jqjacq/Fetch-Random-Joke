@@ -1,6 +1,16 @@
 * {
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 .centertext {
     text-align: center;
+}
+.joke-container {
+    display: flex;
+    justify-content: center;
+}
+.displayJoke {
+    display: block;
+    justify-content: center;
 }
