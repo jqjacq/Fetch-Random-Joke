@@ -1,9 +1,7 @@
 # Fetch Random Joke
 
 ### About The Project
-This project displays random jokes to the user. 
-The user clicks on a button to get a new joke and clicks on another button to reveal the answer.
-It was built using Vanilla JS and retrieves data using class constructor OOP
+This project displays random jokes to the user. The user clicks on a button to display a new joke and can click another button to reveal the answer. It was built using Vanilla JS and retrieves data using the class constructor (OOP).
 
 ### Features
 - Generates random jokes and reveals the answer to the joke.
